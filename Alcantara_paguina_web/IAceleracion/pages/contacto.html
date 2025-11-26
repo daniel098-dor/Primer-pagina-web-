@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="IAceleración - Academia especializada en enseñanza y mentoría sobre Inteligencia Artificial">
+    <title>IAceleración | Domina la Inteligencia Artificial</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/IAceleracion/css/styles.css">
+    <link rel="icon" href="/IAceleracion/img/logo.png" type="image/x-icon">
+</head>
+<body>
+    
+    <header class="header" id="header">
+        <div class="header__container">
+            <div class="header__logo">
+                <svg class="header__logo-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20 5L35 12.5V27.5L20 35L5 27.5V12.5L20 5Z" stroke="currentColor" stroke-width="2"/>
+                    <circle cx="20" cy="20" r="6" stroke="currentColor" stroke-width="2"/>
+                    <line x1="20" y1="14" x2="20" y2="8" stroke="currentColor" stroke-width="2"/>
+                    <line x1="26" y1="20" x2="32" y2="20" stroke="currentColor" stroke-width="2"/>
+                    <line x1="20" y1="26" x2="20" y2="32" stroke="currentColor" stroke-width="2"/>
+                    <line x1="14" y1="20" x2="8" y2="20" stroke="currentColor" stroke-width="2"/>
+                </svg>
+                <span class="header__logo-text">IAceleración</span>
+            </div>
+            
+            <nav class="header__nav" id="navMenu">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item">
+                        <a href="/IAceleracion/index.html" class="header__nav-link header__nav-link--active">Inicio</a>
+                    </li>
+                    <li class="header__nav-item dropdown">
+                        <a href="#servicios" class="header__nav-link dropdown-link">
+                            Servicios 
+                            <i data-feather="chevron-down" class="dropdown-icon"></i>
+                        </a>
+                        <ul class="dropdown-content">
+                            <li><a href="/IAceleracion/index.html#servicios" class="header__nav-link">Cursos Intensivos</a></li>
+                            <li><a href="/IAceleracion/index.html#servicios" class="header__nav-link">Mentorías 1-a-1</a></li>
+                            <li><a href="/IAceleracion/index.html#servicios" class="header__nav-link">Recursos Premium</a></li>
+                            <li><a href="/IAceleracion/index.html#servicios" class="header__nav-link">Bootcamp Empresarial</a></li>
+                        </ul>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="/IAceleracion/index.html#nosotros" class="header__nav-link">Nosotros</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="/IAceleracion/pages/Podcast.html" class="header__nav-link">Podcast</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="/IAceleracion/pages/contacto.html" class="header__nav-link header__nav-link--cta">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+            
+            <button class="header__hamburger" id="hamburger" aria-label="Toggle menu">
+                <span class="header__hamburger-line"></span>
+                <span class="header__hamburger-line"></span>
+                <span class="header__hamburger-line"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contacto">
+        <div class="contact__container">
+            <div class="contact__info">
+                <h2 class="section-title section-title--white">Comienza Tu Transformación</h2>
+                <p class="contact__text">
+                    ¿Listo para dominar la Inteligencia Artificial? Contáctanos y descubre 
+                    cómo podemos ayudarte a alcanzar tus objetivos profesionales.
+                </p>
+                
+                <div class="contact__details">
+                    <div class="contact__detail">
+                        <svg class="contact__detail-icon" viewBox="0 0 24 24" fill="none">
+                            <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                        <div>
+                            <h4 class="contact__detail-title">Email</h4>
+                            <a href="mailto:iaceleracion@gmail.com" class="contact__detail-link">iaceleracion@gmail.com</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact__detail">
+                        <svg class="contact__detail-icon" viewBox="0 0 24 24" fill="none">
+                            <path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                        <div>
+                            <h4 class="contact__detail-title">Teléfono</h4>
+                            <a href="tel:+51999888777" class="contact__detail-link">+51 999 888 777</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact__detail">
+                        <svg class="contact__detail-icon" viewBox="0 0 24 24" fill="none">
+                            <path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" stroke="currentColor" stroke-width="2"/>
+                            <path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                        <div>
+                            <h4 class="contact__detail-title">Ubicación</h4>
+                            <p class="contact__detail-text">Huancayo, Perú</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact__social">
+                    <a href="https://facebook.com" class="contact__social-link" target="_blank" rel="noopener" aria-label="Facebook">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/>
+                        </svg>
+                    </a>
+                    <a href="https://linkedin.com" class="contact__social-link" target="_blank" rel="noopener" aria-label="LinkedIn">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/>
+                            <circle cx="4" cy="4" r="2"/>
+                        </svg>
+                    </a>
+                    <a href="https://twitter.com" class="contact__social-link" target="_blank" rel="noopener" aria-label="Twitter">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/>
+                        </svg>
+                    </a>
+                    <a href="https://instagram.com" class="contact__social-link" target="_blank" rel="noopener" aria-label="Instagram">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            
+            <form class="contact__form" id="contactForm">
+                <div class="form-group">
+                    <input type="text" class="form-group__input" placeholder="Nombre completo" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-group__input" placeholder="Correo electrónico" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" class="form-group__input" placeholder="Teléfono">
+                </div>
+                <div class="form-group">
+                    <select class="form-group__input" required>
+                        <option value="">Selecciona un servicio</option>
+                        <option value="curso">Curso Intensivo</option>
+                        <option value="mentoria">Mentoría 1-a-1</option>
+                        <option value="bootcamp">Bootcamp Empresarial</option>
+                        <option value="recursos">Recursos Premium</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <textarea class="form-group__input form-group__textarea" placeholder="Mensaje" rows="4"></textarea>
+                </div>
+                <button type="submit" class="btn btn--primary btn--full">Enviar Mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__grid">
+                <div class="footer__section">
+                    <div class="footer__logo">
+                        <svg class="footer__logo-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20 5L35 12.5V27.5L20 35L5 27.5V12.5L20 5Z" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="20" cy="20" r="6" stroke="currentColor" stroke-width="2"/>
+                            <line x1="20" y1="14" x2="20" y2="8" stroke="currentColor" stroke-width="2"/>
+                            <line x1="26" y1="20" x2="32" y2="20" stroke="currentColor" stroke-width="2"/>
+                            <line x1="20" y1="26" x2="20" y2="32" stroke="currentColor" stroke-width="2"/>
+                            <line x1="14" y1="20" x2="8" y2="20" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                        <span class="footer__logo-text">IAceleración</span>
+                    </div>
+                    <p class="footer__description">
+                        Transformando profesionales en expertos de IA mediante educación práctica y de vanguardia.
+                    </p>
+                    <p class="footer__description">
+                        CEO: Alcantara 
+                    </p>
+                </div>
+                
+                <div class="footer__section">
+                    <h4 class="footer__title">Enlaces Rápidos</h4>
+                    <ul class="footer__links">
+                        <li><a href="/IAceleracion/index.html" class="footer__link">Inicio</a></li>
+                        <li><a href="/IAceleracion/index.html#servicios" class="footer__link">Servicios</a></li>
+                        <li><a href="/IAceleracion/index.html#nosotros" class="footer__link">Nosotros</a></li>
+                        <li><a href="/IAceleracion/pages/contacto.html" class="footer__link">Contacto</a></li>
+                        <li><a href="/IAceleracion/pages/Podcast.html" class="footer__link">Podcast</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__section">
+                    <h4 class="footer__title">Información</h4>
+                    <ul class="footer__links">
+                        <li class="footer__info">
+                            <span>📧</span>
+                            <a href="mailto:iaceleracion@gmail.com" class="footer__link">iaceleracion@gmail.com</a>
+                        </li>
+                        <li class="footer__info">
+                            <span>📱</span>
+                            <a href="tel:+51999888777" class="footer__link">+51 999 888 777</a>
+                        </li>
+                        <li class="footer__info">
+                            <span>📍</span>
+                            <span class="footer__link">Huancayo, Perú</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="footer__section">
+                    <h4 class="footer__title">Síguenos</h4>
+                    <div class="footer__social">
+                        <a href="https://facebook.com" class="footer__social-link" target="_blank" rel="noopener" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/>
+                            </svg>
+                        </a>
+                        <a href="https://linkedin.com" class="footer__social-link" target="_blank" rel="noopener" aria-label="LinkedIn">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/>
+                                <circle cx="4" cy="4" r="2"/>
+                            </svg>
+                        </a>
+                        <a href="https://twitter.com" class="footer__social-link" target="_blank" rel="noopener" aria-label="Twitter">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/>
+                            </svg>
+                        </a>
+                        <a href="https://instagram.com" class="footer__social-link" target="_blank" rel="noopener" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer__bottom">
+                <p class="footer__copyright">
+                    &copy; 2025 IAceleración. Todos los derechos reservados.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop" aria-label="Volver arriba">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M18 15l-6-6-6 6"/>
+        </svg>
+    </button>
+
+    <script src="/IAceleracion/js/main.js"></script>
+</body>
+</html>

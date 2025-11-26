@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="IAceleración - Academia especializada en enseñanza y mentoría sobre Inteligencia Artificial">
+    <title>IAceleración | Domina la Inteligencia Artificial</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/IAceleracion/css/styles.css">
+    <link rel="icon" href="/IAceleracion/img/logo.png" type="image/x-icon">
+</head>
+<body>
+    
+    <header class="header" id="header">
+        <div class="header__container">
+            <div class="header__logo">
+                <svg class="header__logo-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20 5L35 12.5V27.5L20 35L5 27.5V12.5L20 5Z" stroke="currentColor" stroke-width="2"/>
+                    <circle cx="20" cy="20" r="6" stroke="currentColor" stroke-width="2"/>
+                    <line x1="20" y1="14" x2="20" y2="8" stroke="currentColor" stroke-width="2"/>
+                    <line x1="26" y1="20" x2="32" y2="20" stroke="currentColor" stroke-width="2"/>
+                    <line x1="20" y1="26" x2="20" y2="32" stroke="currentColor" stroke-width="2"/>
+                    <line x1="14" y1="20" x2="8" y2="20" stroke="currentColor" stroke-width="2"/>
+                </svg>
+                <span class="header__logo-text">IAceleración</span>
+            </div>
+            
+            <nav class="header__nav" id="navMenu">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item">
+                        <a href="/IAceleracion/index.html#inicio" class="header__nav-link header__nav-link--active">Inicio</a>
+                    </li>
+                    <li class="header__nav-item dropdown">
+                        <a href="#servicios" class="header__nav-link dropdown-link">
+                            Servicios 
+                            <i data-feather="chevron-down" class="dropdown-icon"></i>
+                        </a>
+                        <ul class="dropdown-content">
+                            <li><a href="/IAceleracion/index.html#servicios" class="header__nav-link">Cursos Intensivos</a></li>
+                            <li><a href="/IAceleracion/index.html#servicios" class="header__nav-link">Mentorías 1-a-1</a></li>
+                            <li><a href="/IAceleracion/index.html#servicios" class="header__nav-link">Recursos Premium</a></li>
+                            <li><a href="/IAceleracion/index.html#servicios" class="header__nav-link">Bootcamp Empresarial</a></li>
+                        </ul>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="/IAceleracion/index.html#nosotros" class="header__nav-link">Nosotros</a>
+                    </li>
+                     <li class="header__nav-item">
+                        <a href="/IAceleracion/pages/Podcast.html" class="header__nav-link">Podcast</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="/IAceleracion/pages/contacto.html" class="header__nav-link header__nav-link--cta">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+            
+            <button class="header__hamburger" id="hamburger" aria-label="Toggle menu">
+                <span class="header__hamburger-line"></span>
+                <span class="header__hamburger-line"></span>
+                <span class="header__hamburger-line"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Audio/Podcast Section -->
+    <section class="podcast">
+        <div class="podcast__container">
+            <h2 class="section-title">Escucha Nuestro Podcast</h2>
+            <p class="section-subtitle">Episodios semanales sobre las últimas tendencias en IA</p>
+            
+            <div class="podcast__player">
+                <div class="podcast__artwork">
+                    <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="200" height="200" fill="url(#gradient)"/>
+                        <circle cx="100" cy="100" r="40" stroke="white" stroke-width="4" opacity="0.8"/>
+                        <circle cx="100" cy="100" r="20" fill="white" opacity="0.9"/>
+                        <defs>
+                            <linearGradient id="gradient" x1="0" y1="0" x2="200" y2="200">
+                                <stop offset="0%" style="stop-color:#0047AB"/>
+                                <stop offset="100%" style="stop-color:#00FFFF"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+                <div class="podcast__controls">
+                    <h3 class="podcast__episode-title">Ep. 01 - Introducción a IAceleración</h3>
+                    <audio class="podcast__audio" controls id="podcastAudio">
+                        <source src="/IAceleracion/img/podcas.mp3" type="audio/mpeg">
+                        Tu navegador no soporta el elemento de audio.
+                    </audio>
+                    <p class="podcast__description">
+                        En este episodio inaugural, conoce más sobre nuestra visión, 
+                        metodología y cómo la IA está transformando industrias completas.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__grid">
+                <div class="footer__section">
+                    <div class="footer__logo">
+                        <svg class="footer__logo-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20 5L35 12.5V27.5L20 35L5 27.5V12.5L20 5Z" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="20" cy="20" r="6" stroke="currentColor" stroke-width="2"/>
+                            <line x1="20" y1="14" x2="20" y2="8" stroke="currentColor" stroke-width="2"/>
+                            <line x1="26" y1="20" x2="32" y2="20" stroke="currentColor" stroke-width="2"/>
+                            <line x1="20" y1="26" x2="20" y2="32" stroke="currentColor" stroke-width="2"/>
+                            <line x1="14" y1="20" x2="8" y2="20" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                        <span class="footer__logo-text">IAceleración</span>
+                    </div>
+                    <p class="footer__description">
+                        Transformando profesionales en expertos de IA mediante educación práctica y de vanguardia.
+                    </p>
+                    <p class="footer__description">
+                        CEO: Alcantara 
+                </div>
+                
+                <div class="footer__section">
+                    <h4 class="footer__title">Enlaces Rápidos</h4>
+                    <ul class="footer__links">
+                        <li><a href="/IAceleracion/index.html" class="footer__link">Inicio</a></li>
+                        <li><a href="/IAceleracion/index.html#servicios" class="footer__link">Servicios</a></li>
+                        <li><a href="/IAceleracion/index.html#nosotros" class="footer__link">Nosotros</a></li>
+                        <li><a href="/IAceleracion/pages/contacto.html" class="footer__link">Contacto</a></li>
+                        <li><a href="/IAceleracion/pages/Podcast.html" class="footer__link">Podcast</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__section">
+                    <h4 class="footer__title">Información</h4>
+                    <ul class="footer__links">
+                        <li class="footer__info">
+                            <span>📧</span>
+                            <a href="mailto:iaceleracion@gmail.com" class="footer__link">iaceleracion@gmail.com</a>
+                        </li>
+                        <li class="footer__info">
+                            <span>📱</span>
+                            <a href="tel:+51999888777" class="footer__link">+51 999 888 777</a>
+                        </li>
+                        <li class="footer__info">
+                            <span>📍</span>
+                            <span class="footer__link">Huancayo, Perú</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="footer__section">
+                    <h4 class="footer__title">Síguenos</h4>
+                    <div class="footer__social">
+                        <a href="https://facebook.com" class="footer__social-link" target="_blank" rel="noopener" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/>
+                            </svg>
+                        </a>
+                        <a href="https://linkedin.com" class="footer__social-link" target="_blank" rel="noopener" aria-label="LinkedIn">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/>
+                                <circle cx="4" cy="4" r="2"/>
+                            </svg>
+                        </a>
+                        <a href="https://twitter.com" class="footer__social-link" target="_blank" rel="noopener" aria-label="Twitter">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/>
+                            </svg>
+                        </a>
+                        <a href="https://instagram.com" class="footer__social-link" target="_blank" rel="noopener" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer__bottom">
+                <p class="footer__copyright">
+                    &copy; 2025 IAceleración. Todos los derechos reservados.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop" aria-label="Volver arriba">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M18 15l-6-6-6 6"/>
+        </svg>
+    </button>
+
+    <script src="/IAceleracion/js/main.js"></script>
+</body>
+</html>
